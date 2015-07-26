@@ -1,0 +1,28 @@
+
+
+body {background-color: orange;
+	color: white;
+	font-family: helvetica;	
+	}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-size: 22px;
+
+}
+
+#slogan { 
+font-style: italic;
+text-align: center;
+}
+
+
+
+nav {
+	width: 100%;
+	text-align: right;
+}
+
