@@ -1,0 +1,322 @@
+body {
+	background-color: orange;
+	color: white;
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 9px;
+	text-align: center;
+	margin: 0;
+	color: #510b23;
+}
+
+img {
+	margin: 0;
+	border: 0;
+	width: 100%;
+	display: block;
+}
+
+h1 {
+	float: left;
+	font-weight: 900;
+	font-size: 5em;
+	text-align: left;
+	letter-spacing: -.015em;
+	color: #c2976d;
+}
+
+nav {
+	float: right;
+	padding: 2em 0 0;
+}
+
+li {
+	display: inline;
+}
+
+nav a {
+	font-size: 2.5em;
+	font-weight: 400;
+	text-decoration: none;
+	color: #c2976d;
+	padding: 0 2em 0 0;
+}
+
+h2 {
+	font-size: 25em;
+	font-weight: 900;
+	line-height: 1.168em;
+	color: #510b23;
+	letter-spacing: -.015em;
+	margin: 0 auto .06em;
+}
+
+p {
+	font-family: 'Crimson Text', serif;
+	font-size: 5em;
+	font-weight: 400;
+	line-height: 1.168em;
+	width: 100%;
+	color: #510b23;
+	letter-spacing: -.020em;
+	margin: 0;
+}
+
+h3 {
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 5em;
+	font-weight: 900;
+	line-height: 74px;
+}
+
+h4 {
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 3em;
+	font-weight: 900;
+	letter-spacing: 0em;
+	line-height: 1.618em;
+}
+
+h5 {
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 3em;
+	font-weight: 900;
+	letter-spacing: 0em;
+	line-height: 1.618em;
+}
+
+h6 {
+	font-weight: 900;
+	font-size: 4em;
+	text-align: center;
+	line-height: 1.618em;
+	letter-spacing: -.015em;
+	color: #f4c163;
+}
+
+span {
+	text-transform: uppercase;
+}
+
+img + h4 {
+	margin: 1em 0 0;
+}
+
+p + h3 {
+	margin: .5em 0 0 0;
+}
+
+h3 + p {
+	margin: 0 0 .5em 0;
+}
+
+p + img {
+	margin: 4em auto;
+}
+
+footer {
+	background-color: #fff;
+}
+
+.wordmark {
+	float: left;
+}
+
+.col-4 {
+	padding: 3em 4.75% 0 4.75%;
+	width: 50%;
+	float: left;
+}
+
+.two-images {
+	width: 50%;
+	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.rate-box {
+	background-color: #FFF;
+	width: 100%;
+	margin: 0 auto 1.5em;
+	border: 0;
+}
+
+.rate-box-3 {
+	background-color: #ee805c;
+	width: 100%;
+	padding: .5em 2%;
+	margin: 0 0 4em;
+}
+
+.wrapper {
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 4em 0 0;
+}
+
+
+}
+
+.two-col-wrapper {
+	width: 88%;
+	max-width: 875px;
+	margin: 1.5em auto 0;
+	padding: 4em 0 0 0;
+}
+
+.right-col {
+	float: right;
+	width: 46%;
+	margin-left: 3%;
+	max-width: 475px;
+}
+
+.left-col {
+	float: left;
+	width: 46%;
+	margin-right: 3%;
+	max-width: 388px;
+}
+
+.image-container {
+	width: 95%;
+	max-width: 950px;
+	min-width: 190px;
+	margin: 4em auto 0 auto;
+}
+
+
+}
+
+#masthead {
+	background-color: #FFF;
+	width: 100%;
+	padding: .5em 0 1em 2em;
+}
+
+#intro-wrapper {
+	width: 80%;
+	max-width: 800px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#contact-wrapper {
+	width: 70%;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 0 5em 0;
+}
+
+#intro {
+	background-image: url("images/istock-cutting-board-tint.jpg");
+    background-size: cover;
+    background-position: center;
+	margin: 0;
+	padding: 0 0 6em 0;
+}
+
+#create {
+	background-color: #FFF;
+	width: 100%;
+	position: relative;
+	padding: 0 0 6em 0;
+}
+
+#enter {
+	background-color: #f4c163;
+	width: 100%;
+	position: relative;
+	padding: 0 0 9em 0;
+}
+
+#contact {
+	background-color: #fff;
+	width: 100%;
+	padding: 6em 0 12em;
+}
+
+#facebook-logo {
+	width: 8%;
+	max-width: 59px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+	body {
+		font-size: 8px;
+	}
+}
+
+@media only screen and (max-width: 886px) {
+	body {
+		font-size: 7.5px;
+	}
+	.right-col {
+	float: none;
+	width: 100%;
+	margin: 0 auto 4em;
+	max-width: 800px;
+	}
+
+	.left-col {
+	float: none;
+	width: 85%;
+	margin: auto;
+	max-width: 388px;
+	}
+}
+
+@media only screen and (max-width: 795px) {
+	body {
+		font-size: 7px;
+	}
+	.two-images {
+		float: none;
+		margin: auto;
+		width: 60%;
+	}
+	.image-container {
+		width: 24%;
+		margin: 3em auto 0;
+	}
+	.rate-images {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 674px) {
+	body {
+		font-size: 6px;
+	}
+	.two-images {
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	p {
+		font-size: 3.25em;
+	}
+	h2 {
+		font-size: 14em;
+	}
+	nav a {
+	padding: 0 1.5em 0 0;
+	}
+	nav {
+	float: right;
+	}
+}
+
+
